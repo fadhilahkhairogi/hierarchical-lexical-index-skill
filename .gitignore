@@ -1,0 +1,31 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local caches of the index engine
+*_cache.json
+hierarchical_index_cache.json
+kv_cache.json
+search_cache.json
+
+# Environment files with credentials/API keys
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary directories and mock data
+test_data/
+scratch/
+temp/
+tmp/
