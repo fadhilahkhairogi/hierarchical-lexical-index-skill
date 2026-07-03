@@ -1,0 +1,151 @@
+workload,sut_report,sut_label,task_id,success,tokens,precision,recall,f1,explore_chars,analyze_chars,overhead_chars,expand_calls,search_calls,summarize_calls,pof_type
+archeology,complete_R1,complete_R1,archeology-hard-1,0,26790,1.0,1.0,1.0,1427,22005,807,5,7,0,different user QUERY interpretation
+archeology,complete_R1,complete_R1,archeology-hard-2,0,28061,1.0,0.5,0.6666666666666666,2081,13544,1084,0,1,0,Incorrect PIPELINE implementation/code generation
+archeology,complete_R1,complete_R1,archeology-easy-3,1,56784,1.0,1.0,1.0,3655,1374,904,0,0,0,
+archeology,complete_R1,complete_R1,archeology-easy-4,1,16545,1.0,1.0,1.0,972,3708,1066,0,0,0,
+archeology,complete_R1,complete_R1,archeology-hard-5,0,27471,1.0,1.0,1.0,811,28595,1100,0,0,0,different user QUERY interpretation
+archeology,complete_R1,complete_R1,archeology-easy-6,1,35771,1.0,1.0,1.0,1197,3955,1072,0,0,0,
+archeology,complete_R1,complete_R1,archeology-hard-7,0,14943,1.0,1.0,1.0,810,4840,546,0,0,0,Incorrect PIPELINE implementation/code generation
+archeology,complete_R1,complete_R1,archeology-easy-8,0,65883,1.0,1.0,1.0,4440,15021,857,0,0,0,Incorrect PIPELINE implementation/code generation
+archeology,complete_R1,complete_R1,archeology-hard-9,0,118814,1.0,1.0,1.0,11959,24694,1057,2,0,0,Incorrect PIPELINE implementation/code generation
+archeology,complete_R1,complete_R1,archeology-easy-10,1,12789,1.0,1.0,1.0,564,2423,368,0,0,0,
+archeology,complete_R1,complete_R1,archeology-easy-11,0,24518,1.0,1.0,1.0,3996,9298,770,2,0,0,Incorrect PIPELINE implementation/code generation
+archeology,complete_R1,complete_R1,archeology-hard-12,0,66571,1.0,0.5,0.6666666666666666,5059,57830,864,0,0,0,different user QUERY interpretation
+archeology,without_R1,without_R1,archeology-hard-1,0,24777,1.0,1.0,1.0,227,22039,836,0,1,0,different user QUERY interpretation
+archeology,without_R1,without_R1,archeology-hard-2,0,19067,1.0,0.5,0.6666666666666666,69,11590,791,0,0,0,mismatch ANSWER type or format
+archeology,without_R1,without_R1,archeology-easy-3,1,12937,1.0,1.0,1.0,404,4135,1013,0,0,0,
+archeology,without_R1,without_R1,archeology-easy-4,1,21857,1.0,1.0,1.0,1402,4423,1265,0,0,0,
+archeology,without_R1,without_R1,archeology-hard-5,0,25453,1.0,1.0,1.0,1096,24776,1399,0,0,0,different user QUERY interpretation
+archeology,without_R1,without_R1,archeology-easy-6,0,11474,1.0,1.0,1.0,393,2362,620,0,0,0,Lack of data CONTENT understanding
+archeology,without_R1,without_R1,archeology-hard-7,0,15135,1.0,1.0,1.0,2842,6896,328,0,0,0,different user QUERY interpretation
+archeology,without_R1,without_R1,archeology-easy-8,0,67112,1.0,1.0,1.0,1560,24162,807,0,0,0,Incorrect PIPELINE implementation/code generation
+archeology,without_R1,without_R1,archeology-hard-9,0,115093,1.0,1.0,1.0,22622,20750,1179,0,0,0,different user QUERY interpretation
+archeology,without_R1,without_R1,archeology-easy-10,1,12686,1.0,1.0,1.0,3881,854,409,0,0,0,
+archeology,without_R1,without_R1,archeology-easy-11,1,77660,1.0,1.0,1.0,5967,5729,827,0,0,0,
+archeology,without_R1,without_R1,archeology-hard-12,0,118429,1.0,0.5,0.6666666666666666,6777,88295,995,0,0,0,mismatch ANSWER type or format
+archeology,complete_R2,complete_R2,archeology-hard-1,0,77193,1.0,1.0,1.0,1653,40637,839,0,2,0,different user QUERY interpretation
+archeology,complete_R2,complete_R2,archeology-hard-2,0,40208,1.0,0.5,0.6666666666666666,1329,6361,735,4,0,0,Incorrect PIPELINE implementation/code generation
+archeology,complete_R2,complete_R2,archeology-easy-3,1,23189,1.0,1.0,1.0,1785,3363,722,0,0,0,
+archeology,complete_R2,complete_R2,archeology-easy-4,1,16069,1.0,1.0,1.0,1280,6460,960,0,2,0,
+archeology,complete_R2,complete_R2,archeology-hard-5,0,26762,1.0,1.0,1.0,6011,15626,820,0,0,0,different user QUERY interpretation
+archeology,complete_R2,complete_R2,archeology-easy-6,1,14147,1.0,1.0,1.0,1730,3535,659,1,0,0,mismatch ANSWER type or format
+archeology,complete_R2,complete_R2,archeology-hard-7,1,83583,1.0,1.0,1.0,7014,4753,846,0,0,0,
+archeology,complete_R2,complete_R2,archeology-easy-8,0,104071,1.0,1.0,1.0,8061,19566,789,0,0,0,Lack of data CONTENT understanding
+archeology,complete_R2,complete_R2,archeology-hard-9,0,123629,1.0,1.0,1.0,19504,42469,1044,0,0,0,Incorrect PIPELINE implementation/code generation
+archeology,complete_R2,complete_R2,archeology-easy-10,1,57513,1.0,1.0,1.0,2297,2313,1670,2,0,0,
+archeology,complete_R2,complete_R2,archeology-easy-11,1,21885,1.0,1.0,1.0,2219,4909,791,0,0,0,
+archeology,complete_R2,complete_R2,archeology-hard-12,0,120300,1.0,0.5,0.6666666666666666,5994,67023,1049,0,0,0,different user QUERY interpretation
+archeology,without_R2,without_R2,archeology-hard-1,0,26389,1.0,1.0,1.0,1309,15803,1051,0,0,0,different user QUERY interpretation
+archeology,without_R2,without_R2,archeology-hard-2,0,16962,1.0,0.5,0.6666666666666666,1742,6361,965,0,0,0,Incorrect PIPELINE implementation/code generation
+archeology,without_R2,without_R2,archeology-easy-3,1,57012,1.0,1.0,1.0,900,4868,855,0,0,0,
+archeology,without_R2,without_R2,archeology-easy-4,1,15951,1.0,1.0,1.0,105,6209,770,0,0,0,
+archeology,without_R2,without_R2,archeology-hard-5,0,24734,1.0,1.0,1.0,531,23320,1151,0,0,0,Lack of SCHEMA understanding/wrong file or data source
+archeology,without_R2,without_R2,archeology-easy-6,0,13241,1.0,1.0,1.0,1885,2546,602,0,0,0,
+archeology,without_R2,without_R2,archeology-hard-7,1,101995,1.0,1.0,1.0,6936,3052,1058,0,0,0,
+archeology,without_R2,without_R2,archeology-easy-8,0,69558,1.0,1.0,1.0,734,28433,501,0,0,0,Incorrect PIPELINE implementation/code generation
+archeology,without_R2,without_R2,archeology-hard-9,0,74449,1.0,1.0,1.0,10119,24680,771,0,0,0,different user QUERY interpretation
+archeology,without_R2,without_R2,archeology-easy-10,1,15671,1.0,1.0,1.0,906,3295,769,0,0,0,
+archeology,without_R2,without_R2,archeology-easy-11,1,16253,1.0,1.0,1.0,2875,11692,836,0,0,0,
+archeology,without_R2,without_R2,archeology-hard-12,0,87035,1.0,0.5,0.6666666666666666,45324,40547,4323,0,0,0,different user QUERY interpretation
+archeology,complete_R3,complete_R3,archeology-hard-1,0,51394,1.0,1.0,1.0,11542,44508,807,3,4,0,different user QUERY interpretation
+archeology,complete_R3,complete_R3,archeology-hard-2,0,17513,1.0,0.5,0.6666666666666666,247,8035,707,3,2,0,Lack of SCHEMA understanding/wrong file or data source
+archeology,complete_R3,complete_R3,archeology-easy-3,1,21451,1.0,1.0,1.0,211,5953,1050,2,0,1,
+archeology,complete_R3,complete_R3,archeology-easy-4,1,20753,1.0,1.0,1.0,272,7619,1093,2,0,0,
+archeology,complete_R3,complete_R3,archeology-hard-5,0,36574,1.0,1.0,1.0,937,34492,943,3,0,0,different user QUERY interpretation
+archeology,complete_R3,complete_R3,archeology-easy-6,1,16470,1.0,1.0,1.0,377,4804,410,2,0,0,
+archeology,complete_R3,complete_R3,archeology-hard-7,0,68103,1.0,1.0,1.0,7153,6708,1182,2,0,0,Incorrect PIPELINE implementation/code generation
+archeology,complete_R3,complete_R3,archeology-easy-8,0,62095,1.0,1.0,1.0,8258,33262,1059,4,0,0,Lack of data CONTENT understanding
+archeology,complete_R3,complete_R3,archeology-hard-9,0,117935,1.0,1.0,1.0,12032,16175,1324,0,0,0,Lack of SCHEMA understanding/wrong file or data source
+archeology,complete_R3,complete_R3,archeology-easy-10,1,13856,1.0,1.0,1.0,601,4250,876,2,0,0,
+archeology,complete_R3,complete_R3,archeology-easy-11,1,21443,1.0,1.0,1.0,2095,15094,714,6,0,0,
+archeology,complete_R3,complete_R3,archeology-hard-12,0,81721,1.0,0.5,0.6666666666666666,9365,62329,1112,2,5,2,Incorrect PIPELINE implementation/code generation
+archeology,without_R3,without_R3,archeology-hard-1,0,26997,1.0,1.0,1.0,3804,18004,813,0,0,0,different user QUERY interpretation
+archeology,without_R3,without_R3,archeology-hard-2,0,61016,1.0,0.5,0.6666666666666666,983,11053,970,0,0,0,different user QUERY interpretation
+archeology,without_R3,without_R3,archeology-easy-3,0,57562,1.0,1.0,1.0,2879,2735,1031,0,0,0,
+archeology,without_R3,without_R3,archeology-easy-4,1,14214,1.0,1.0,1.0,519,4828,1219,0,0,0,
+archeology,without_R3,without_R3,archeology-hard-5,0,25264,1.0,1.0,1.0,4530,24957,1104,0,0,0,different user QUERY interpretation
+archeology,without_R3,without_R3,archeology-easy-6,1,12034,1.0,1.0,1.0,1119,1523,1115,0,0,0,
+archeology,without_R3,without_R3,archeology-hard-7,0,99934,1.0,1.0,1.0,2063,3008,373,0,0,0,Incorrect PIPELINE implementation/code generation
+archeology,without_R3,without_R3,archeology-easy-8,0,48021,1.0,1.0,1.0,1062,19201,1127,0,2,0,Incorrect PIPELINE implementation/code generation
+archeology,without_R3,without_R3,archeology-hard-9,0,105295,1.0,1.0,1.0,4377,13822,1200,0,0,0,Incorrect PIPELINE implementation/code generation
+archeology,without_R3,without_R3,archeology-easy-10,1,56496,1.0,1.0,1.0,975,4557,1001,0,0,0,
+archeology,without_R3,without_R3,archeology-easy-11,1,16748,1.0,1.0,1.0,756,8468,773,0,0,0,
+archeology,without_R3,without_R3,archeology-hard-12,0,137694,1.0,0.5,0.6666666666666666,15757,136779,1190,0,0,0,different user QUERY interpretation
+biomedical,complete_R1,complete_R1,biomedical-hard-1,1,32038,1.0,1.0,1.0,376,20395,959,0,0,0,
+biomedical,complete_R1,complete_R1,biomedical-easy-2,0,20039,1.0,1.0,1.0,362,5316,953,2,0,0,Lack of data CONTENT understanding
+biomedical,complete_R1,complete_R1,biomedical-hard-3,1,44300,1.0,1.0,1.0,1292,11351,972,5,12,1,
+biomedical,complete_R1,complete_R1,biomedical-hard-4,0,45852,1.0,1.0,1.0,5984,30716,844,0,19,0,
+biomedical,complete_R1,complete_R1,biomedical-hard-5,0,17737,1.0,0.5,0.6666666666666666,1958,2486,1116,2,3,0,Lack of SCHEMA understanding/wrong file or data source
+biomedical,complete_R1,complete_R1,biomedical-easy-6,1,27796,1.0,1.0,1.0,965,6693,1120,6,1,6,
+biomedical,complete_R1,complete_R1,biomedical-hard-7,0,14067,1.0,1.0,1.0,2811,845,898,0,1,0,Lack of SCHEMA understanding/wrong file or data source
+biomedical,complete_R1,complete_R1,biomedical-hard-8,0,32657,0.6,1.0,0.7499999999999999,7339,20364,1154,0,1,0,mismatch ANSWER type or format
+biomedical,complete_R1,complete_R1,biomedical-easy-9,1,63609,1.0,1.0,1.0,10271,18263,1021,0,0,0,
+biomedical,without_R1,without_R1,biomedical-hard-1,0,20191,1.0,1.0,1.0,12862,9417,689,0,0,0,Lack of SCHEMA understanding/wrong file or data source
+biomedical,without_R1,without_R1,biomedical-easy-2,1,18011,1.0,1.0,1.0,0,4747,743,0,0,0,
+biomedical,without_R1,without_R1,biomedical-hard-3,1,20933,1.0,1.0,1.0,227,6914,894,0,0,0,
+biomedical,without_R1,without_R1,biomedical-hard-4,0,28833,1.0,1.0,1.0,5013,21257,594,0,14,0,
+biomedical,without_R1,without_R1,biomedical-hard-5,0,37079,1.0,0.5,0.6666666666666666,485,4241,661,0,0,0,Lack of SCHEMA understanding/wrong file or data source
+biomedical,without_R1,without_R1,biomedical-easy-6,1,19408,1.0,1.0,1.0,256,8965,1182,0,0,0,
+biomedical,without_R1,without_R1,biomedical-hard-7,1,37091,1.0,1.0,1.0,0,6062,777,0,0,0,
+biomedical,without_R1,without_R1,biomedical-hard-8,0,49552,0.75,1.0,0.8571428571428571,1363,34794,989,0,2,0,mismatch ANSWER type or format
+biomedical,without_R1,without_R1,biomedical-easy-9,1,35589,1.0,1.0,1.0,0,18068,798,0,1,0,
+legal,complete_R1,complete_R1,legal-hard-1,0,92352,0.5,0.5,0.5,16981,42425,1974,0,26,0,Lack of SCHEMA understanding/wrong file or data source
+legal,complete_R1,complete_R1,legal-hard-2,0,86529,0.5,0.5,0.5,15107,30572,1122,0,1,0,mismatch ANSWER type or format
+legal,complete_R1,complete_R1,legal-easy-3,1,16167,1.0,1.0,1.0,1837,1505,751,0,0,0,mismatch ANSWER type or format
+legal,complete_R1,complete_R1,legal-easy-4,0,75973,0.0,0.0,0.0,42605,36392,689,0,4,0,Lack of SCHEMA understanding/wrong file or data source
+legal,complete_R1,complete_R1,legal-easy-5,1,23475,1.0,1.0,1.0,2156,781,809,0,0,0,
+legal,complete_R1,complete_R1,legal-hard-6,1,30678,1.0,1.0,1.0,7660,2192,989,0,0,0,mismatch ANSWER type or format
+legal,complete_R1,complete_R1,legal-hard-7,1,32798,1.0,1.0,1.0,1893,19918,781,0,0,0,
+legal,complete_R1,complete_R1,legal-hard-8,1,50283,1.0,1.0,1.0,6131,271,1026,2,0,0,
+legal,complete_R1,complete_R1,legal-easy-9,1,18735,1.0,1.0,1.0,984,3565,1162,0,0,0,
+legal,complete_R1,complete_R1,legal-easy-10,0,48535,1.0,1.0,1.0,1730,5464,1027,0,0,0,
+legal,complete_R1,complete_R1,legal-easy-11,1,19457,1.0,1.0,1.0,1578,8728,794,0,0,0,
+legal,complete_R1,complete_R1,legal-easy-12,1,14818,1.0,1.0,1.0,1271,4355,847,0,0,0,
+legal,complete_R1,complete_R1,legal-easy-13,1,17853,1.0,1.0,1.0,1499,4783,925,0,0,0,
+legal,complete_R1,complete_R1,legal-hard-14,0,45404,0.5,0.5,0.5,7466,7210,913,0,0,0,
+legal,complete_R1,complete_R1,legal-hard-15,0,50721,0.0,0.0,0.0,18688,4440,876,0,4,0,Lack of SCHEMA understanding/wrong file or data source
+legal,complete_R1,complete_R1,legal-hard-16,0,62323,0.0,0.0,0.0,12935,17396,768,0,9,0,Lack of SCHEMA understanding/wrong file or data source
+legal,complete_R1,complete_R1,legal-hard-17,1,36701,0.0,0.0,0.0,4706,10170,1136,0,0,0,
+legal,complete_R1,complete_R1,legal-hard-18,0,45442,0.5,0.3333333333333333,0.4,1885,5555,771,0,0,0,different user QUERY interpretation
+legal,complete_R1,complete_R1,legal-easy-19,0,31045,1.0,1.0,1.0,1337,17060,809,0,0,0,Lack of SCHEMA understanding/wrong file or data source
+legal,complete_R1,complete_R1,legal-easy-20,1,16236,0.5,1.0,0.6666666666666666,1341,1301,769,0,0,0,different user QUERY interpretation
+legal,complete_R1,complete_R1,legal-easy-21,0,24650,1.0,1.0,1.0,1657,889,842,0,0,0,
+legal,complete_R1,complete_R1,legal-hard-22,0,32170,0.5,0.5,0.5,8808,10540,1127,0,0,0,Lack of SCHEMA understanding/wrong file or data source
+legal,complete_R1,complete_R1,legal-hard-23,1,52059,1.0,1.0,1.0,4520,7468,1100,0,0,0,
+legal,complete_R1,complete_R1,legal-hard-24,0,48103,0.6666666666666666,0.6666666666666666,0.6666666666666666,9622,20979,1209,0,3,0,
+legal,complete_R1,complete_R1,legal-easy-25,1,29771,1.0,1.0,1.0,3484,2550,579,0,5,0,
+legal,complete_R1,complete_R1,legal-easy-26,0,26496,1.0,1.0,1.0,964,5439,975,0,0,0,
+legal,complete_R1,complete_R1,legal-easy-27,1,49550,1.0,1.0,1.0,2672,5292,737,4,0,0,
+legal,complete_R1,complete_R1,legal-hard-28,1,26393,1.0,1.0,1.0,3087,9235,915,2,0,0,
+legal,complete_R1,complete_R1,legal-hard-29,0,40135,1.0,0.0,0.0,4703,20415,999,2,0,0,
+legal,complete_R1,complete_R1,legal-hard-30,1,33697,0.0,0.0,0.0,2327,6590,1097,0,0,0,Lack of SCHEMA understanding/wrong file or data source
+legal,without_R1,without_R1,legal-hard-1,0,82380,0.5,0.5,0.5,34077,21760,1050,0,0,0,Lack of SCHEMA understanding/wrong file or data source
+legal,without_R1,without_R1,legal-hard-2,0,65757,0.5,0.5,0.5,21541,7866,2566,0,2,0,mismatch ANSWER type or format
+legal,without_R1,without_R1,legal-easy-3,1,14166,1.0,1.0,1.0,1166,1244,759,0,0,0,mismatch ANSWER type or format
+legal,without_R1,without_R1,legal-easy-4,0,65542,0.0,0.0,0.0,16100,22955,1086,0,0,0,Lack of SCHEMA understanding/wrong file or data source
+legal,without_R1,without_R1,legal-easy-5,1,20117,1.0,1.0,1.0,566,3153,1183,0,0,0,
+legal,without_R1,without_R1,legal-hard-6,1,45920,1.0,1.0,1.0,5826,839,861,0,0,0,mismatch ANSWER type or format
+legal,without_R1,without_R1,legal-hard-7,1,27984,1.0,1.0,1.0,12629,2023,509,0,0,0,
+legal,without_R1,without_R1,legal-hard-8,1,26893,1.0,1.0,1.0,2034,240,1025,0,0,0,
+legal,without_R1,without_R1,legal-easy-9,1,17560,1.0,1.0,1.0,1112,7956,861,0,0,0,
+legal,without_R1,without_R1,legal-easy-10,0,44124,1.0,1.0,1.0,1262,6620,1030,0,0,0,
+legal,without_R1,without_R1,legal-easy-11,1,31947,1.0,1.0,1.0,10905,10065,1027,0,0,0,
+legal,without_R1,without_R1,legal-easy-12,1,12574,1.0,1.0,1.0,2034,250,781,0,0,0,
+legal,without_R1,without_R1,legal-easy-13,1,28331,1.0,1.0,1.0,1820,1488,791,0,0,0,
+legal,without_R1,without_R1,legal-hard-14,0,43245,0.0,0.0,0.0,10558,708,1083,0,0,0,mismatch ANSWER type or format
+legal,without_R1,without_R1,legal-hard-15,0,33795,0.0,0.0,0.0,3617,10210,1149,0,3,0,Lack of SCHEMA understanding/wrong file or data source
+legal,without_R1,without_R1,legal-hard-16,1,56707,1.0,0.0,0.0,12760,14051,625,0,0,0,
+legal,without_R1,without_R1,legal-hard-17,0,43357,0.5,0.5,0.5,2692,1582,1153,0,0,0,different user QUERY interpretation
+legal,without_R1,without_R1,legal-hard-18,0,35470,0.5,0.3333333333333333,0.4,3269,7906,996,0,0,0,different user QUERY interpretation
+legal,without_R1,without_R1,legal-easy-19,0,16787,1.0,1.0,1.0,2892,7496,780,0,0,0,Incorrect PIPELINE implementation/code generation
+legal,without_R1,without_R1,legal-easy-20,1,32509,0.5,1.0,0.6666666666666666,1306,1022,1077,0,0,0,mismatch ANSWER type or format
+legal,without_R1,without_R1,legal-easy-21,1,21962,1.0,1.0,1.0,4506,252,874,0,0,0,
+legal,without_R1,without_R1,legal-hard-22,0,28995,0.5,0.5,0.5,4616,5650,1039,0,0,0,Lack of SCHEMA understanding/wrong file or data source
+legal,without_R1,without_R1,legal-hard-23,1,64963,1.0,1.0,1.0,9427,1253,870,0,0,0,
+legal,without_R1,without_R1,legal-hard-24,0,49691,1.0,0.0,0.0,3136,16440,1125,0,0,0,
+legal,without_R1,without_R1,legal-easy-25,1,14206,1.0,1.0,1.0,2729,252,1038,0,0,0,
+legal,without_R1,without_R1,legal-easy-26,0,20445,1.0,1.0,1.0,1641,3473,802,0,0,0,
+legal,without_R1,without_R1,legal-easy-27,1,25206,1.0,1.0,1.0,916,2461,1060,0,0,0,
+legal,without_R1,without_R1,legal-hard-28,1,44355,0.5,0.5,0.5,7040,14404,984,0,0,0,
+legal,without_R1,without_R1,legal-hard-29,0,78584,0.0,0.0,0.0,11772,73696,802,0,4,0,different user QUERY interpretation
+legal,without_R1,without_R1,legal-hard-30,1,59317,0.0,0.0,0.0,13242,6058,780,0,0,0,mismatch ANSWER type or format
